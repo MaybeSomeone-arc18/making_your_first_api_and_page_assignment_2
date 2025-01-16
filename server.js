@@ -34,7 +34,6 @@ app.get('/status-info', (req, res) => {
     res.json({ code, description });
 });
 
-// Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
